@@ -8,7 +8,7 @@ node {
        }
 
        stage('BuildArtifact'){
-
+          // build step
           sh 'mvn install'
        }
 	   
